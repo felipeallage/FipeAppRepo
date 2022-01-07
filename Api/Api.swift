@@ -75,7 +75,7 @@ struct FipeApi {
     
     func getYearModel() {
         
-        let response: [AnoModelo] = [AnoModelo(Label: "2014 Gasolina", Value: "2014-1"), AnoModelo(Label: "2013 Gasolina", Value: "2013-1"), AnoModelo(Label: "2012 Gasolina", Value: "2012-1")]
+        let response: [AnoModelo] = [AnoModelo(Label: "2014 Gasolina", Value: "2014-1"), AnoModelo(Label: "2013 Gasolina", Value: "2013-1"), AnoModelo(Label: "2012 Gasolina", Value: "2012-1"), AnoModelo(Label: "2011 Gasolina", Value: "2011-1")]
         
         delegate?.didGetYearModel(yearmodel: response)
     }
