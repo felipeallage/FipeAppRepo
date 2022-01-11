@@ -23,10 +23,10 @@ struct FipeApi {
     
     func getYear() {
         
-//                let response: [Period] = [Period(Codigo: 1, Mes: "Abril/2017"), Period(Codigo: 2, Mes: "Maio/2017"), Period(Codigo: 3, Mes: "Junho/2017")]
-//
-//                delegate?.didGetPeriod(year: response)
-//        
+                       let response: [Period] = [Period(Codigo: 1, Mes: "Abril/2017"), Period(Codigo: 2, Mes: "Maio/2017"), Period(Codigo: 3, Mes: "Junho/2017")]
+
+                       delegate?.didGetPeriod(year: response)
+
         
         
 //        let url = URL(string: "https://fipe.contrateumdev.com.br/api/ConsultarTabelaDeReferencia")!
